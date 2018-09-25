@@ -45,7 +45,7 @@ def finalRound(guess):
 		for i in range(114):
 			trebleMan.readline()
 		diagram()
-		print("Music has DIED")
+		print("Treble Man has DIED")
 		print("The word was '{}'\n".format(goal))
 	gameActive = False
 
@@ -74,7 +74,7 @@ def singleRound(guess):
 		lives -= 1
 		diagram()
 		if lives==0:
-			print("Music has DIED")
+			print("Treble Man has DIED")
 			print("The word was '{}'\n".format(goal))
 			gameActive = False
 
